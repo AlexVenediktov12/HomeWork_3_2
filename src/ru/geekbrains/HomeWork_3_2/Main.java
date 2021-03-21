@@ -36,6 +36,8 @@ public class Main {
                         + " " + resultSet.getString("name")
                         + " " + resultSet.getInt("score"));
 
+
+
             }
         } catch (SQLException e) {
             e.printStackTrace();
